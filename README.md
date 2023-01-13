@@ -5,7 +5,7 @@
 ```
 tanzu apps workload create app-image \
   --namespace dev \
-  --image ghcr.io/carto-run/app-image \
+  --image ghcr.io/carto-run/app-image:latest \
   --label app.kubernetes.io/part-of=app-image \
   --type web \
   --yes
