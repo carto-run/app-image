@@ -5,9 +5,7 @@
 ```
 tanzu apps workload create app-image \
   --namespace dev \
-  --git-branch main \
-  --git-repo https://github.com/carto-run/app-image \
-  --label apps.tanzu.vmware.com/has-tests=true \
+  --image ghcr.io/carto-run/app-image \
   --label app.kubernetes.io/part-of=app-image \
   --type web \
   --yes
