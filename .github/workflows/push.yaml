@@ -29,4 +29,4 @@ jobs:
       - name: Pack Build
         uses: dfreilich/pack-action@v2.1.1
         with:
-          args: 'build test_img --builder paketobuildpacks/builder:full'
+          args: 'build ghcr.io/${{ github.repository }} --builder paketobuildpacks/builder:full'
