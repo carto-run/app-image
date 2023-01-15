@@ -30,4 +30,4 @@ jobs:
         uses: dfreilich/pack-action@v2.1.1
         with:
           version: 0.28.0
-          args: 'build ghcr.io/${{ github.repository }} --builder paketobuildpacks/builder:full --publish'
+          args: 'build ghcr.io/${{ github.repository }} --builder paketobuildpacks/builder:base --publish'
