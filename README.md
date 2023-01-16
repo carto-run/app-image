@@ -24,5 +24,5 @@ tanzu apps workload tail app-image
 | Scan Policy     | [default](resources/scan-policy.yaml)                                                 |
 | Pipeline        | [developer-defined-tekton-pipeline](resources/developer-defined-tekton-pipeline.yaml) |
 | tap-values.yaml | na                                                                                    |
-| Supply Chain    | source-test-scan-to-url                                                               |
+| Supply Chain    | scanning-image-scan-to-url                                                            |
 
